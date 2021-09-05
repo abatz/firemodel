@@ -12,4 +12,4 @@ end
 % next use some function to reduce available area to burn as a function of
 % fire history
 
-[rat,addrat,firehistory]=firehistorybufferadv(totalarea,firehistory,option,nmem,zeros(1,length(BA)),zeros(1,length(BA)),0,0);
+[rat,addrat,firehistory]=firehistorybufferadv(totalarea,firehistory,option,nmem,zeros(1,length(BA)),zeros(1,length(BA)),0,0,1);
